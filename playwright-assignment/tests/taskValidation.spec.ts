@@ -10,7 +10,7 @@ test.describe('Kanban Board Validation', () => {
 
   test.beforeEach(async ({ page }) => {
 
-    const loginPage = new LoginPage(page);
+    const loginPage = new LoginPage(page);  
 
     await loginPage.navigate();
 
